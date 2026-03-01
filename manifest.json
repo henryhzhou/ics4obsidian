@@ -1,0 +1,9 @@
+{
+  "id": "ics4obsidian",
+  "name": "ICS Schedule Export",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Export daily schedule tables from notes to .ics files for Apple Calendar",
+  "author": "HenryZ",
+  "isDesktopOnly": true
+}

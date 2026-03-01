@@ -1,0 +1,21 @@
+{
+  "name": "ics4obsidian",
+  "version": "1.0.0",
+  "description": "Export daily schedule tables from Obsidian notes to .ics files",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/nodemailer": "^6.4.0",
+    "esbuild": "^0.20.0",
+    "obsidian": "latest",
+    "typescript": "^5.3.0",
+    "builtin-modules": "^3.3.0"
+  }
+}
